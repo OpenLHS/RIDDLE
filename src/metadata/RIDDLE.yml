@@ -1,0 +1,28 @@
+# PURL configuration for http://purl.obolibrary.org/obo/RIDDLE
+
+idspace: RIDDLE
+base_url: /obo/RIDDLE
+
+products:
+- RIDDLE.owl: https://raw.githubusercontent.com/OpenLHS/RIDDLE/main/RIDDLE.owl
+- RIDDLE.obo: https://raw.githubusercontent.com/OpenLHS/RIDDLE/main/RIDDLE.obo
+
+term_browser: ontobee
+example_terms:
+- RIDDLE_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/OpenLHS/RIDDLE/v
+
+- prefix: /tracker/
+  replacement: https://github.com/OpenLHS/RIDDLE/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/RIDDLE?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/OpenLHS/RIDDLE/main/
+

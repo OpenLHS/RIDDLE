@@ -1,0 +1,21 @@
+id: RIDDLE
+title: RIDDLE project ontology
+github_org: OpenLHS
+repo: RIDDLE
+documentation:
+  documentation_system: mkdocs
+release_artefacts:
+  - full
+  - base
+primary_release: full
+export_formats:
+  - owl
+import_group:
+  products:
+    - id: HOSO
+      module_type: mirror
+      mirror_from: "https://raw.githubusercontent.com/OpenLHS/HOSO/main/HOSO-full.owl"
+subset_group:
+  products:
+    - id: RIDDLE_slim
+robot_java_args: "-Xmx8G"
