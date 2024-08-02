@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/RIDDLE/imports/HOSO_import.owl>
-<http://purl.obolibrary.org/obo/RIDDLE/releases/2023-10-12/imports/HOSO_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/HOSO/releases/2023-10-11/HOSO-full.owl>)
-Annotation(owl:versionInfo "2023-10-12")
+<http://purl.obolibrary.org/obo/RIDDLE/releases/2024-08-02/imports/HOSO_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/HOSO/releases/2024-08-02/HOSO.owl>)
+Annotation(owl:versionInfo "2024-08-02")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
@@ -132,6 +132,21 @@ Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000063>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000067>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000068>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000069>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000070>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000071>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000072>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000073>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000074>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000075>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000076>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000077>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000078>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000079>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000080>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000081>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000082>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000083>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000084>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000100>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000102>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000103>))
@@ -180,6 +195,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/IOIO_0000014>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IOIO_0000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IOIO_0000020>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IOIO_0000021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IOIO_0000022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IOIO_0000023>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_10239>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2157>))
@@ -233,6 +250,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000045>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000051>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000052>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000053>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000054>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000055>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000056>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000057>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000060>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000065>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SEPIO_0000174>))
@@ -313,6 +334,11 @@ Declaration(ObjectProperty(<http://www.ontologyrepository.com/CommonCoreOntologi
 Declaration(ObjectProperty(<http://www.ontologyrepository.com/CommonCoreOntologies/capability_of>))
 Declaration(ObjectProperty(<http://www.ontologyrepository.com/CommonCoreOntologies/has_agent>))
 Declaration(ObjectProperty(<http://www.ontologyrepository.com/CommonCoreOntologies/has_capability>))
+Declaration(DataProperty(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000058>))
+Declaration(DataProperty(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000059>))
+Declaration(DataProperty(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000072>))
+Declaration(DataProperty(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000073>))
+Declaration(DataProperty(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000074>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/BFO_0000179>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/BFO_0000180>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000111>))
@@ -342,10 +368,7 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/valid_for_go_anno
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/valid_for_go_gp2term>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/valid_for_go_ontology>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/valid_for_gocam>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/HEPRO#HEPRO-H>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/HOSO#HOSO-H>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/HOSO.owl#HOSO-H>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IOIO#IOIO-H>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/ro/subsets#ro-eco>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/contributor>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/creator>))
@@ -492,26 +515,11 @@ SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/valid_for_go_ontology> <
 
 SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/valid_for_gocam> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
 
-# Annotation Property: <http://purl.obolibrary.org/obo/HEPRO#HEPRO-H> (HEPRO-H)
+# Annotation Property: <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H> (OpenLHS-H)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HEPRO#HEPRO-H> "HEPRO-H"@en)
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/HEPRO#HEPRO-H> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/HOSO#HOSO-H> (HOSO-H)
-
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/HOSO#HOSO-H> "HOSO classes relevant to humans."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO#HOSO-H> "HOSO-H"@en)
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/HOSO#HOSO-H> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/HOSO.owl#HOSO-H> (<http://purl.obolibrary.org/obo/HOSO.owl#HOSO-H>)
-
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/HOSO.owl#HOSO-H> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IOIO#IOIO-H> (IOIO-H)
-
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/IOIO#IOIO-H> "IOIO classes relevent to humans."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IOIO#IOIO-H> "IOIO-H"@en)
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/IOIO#IOIO-H> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H> "OpenLHS classes relevant to humans."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H> "OpenLHS-H"@en)
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/ro/subsets#ro-eco> (<http://purl.obolibrary.org/obo/ro/subsets#ro-eco>)
 
@@ -1374,6 +1382,36 @@ ObjectPropertyDomain(<http://www.ontologyrepository.com/CommonCoreOntologies/has
 ObjectPropertyRange(<http://www.ontologyrepository.com/CommonCoreOntologies/has_capability> <http://www.ontologyrepository.com/CommonCoreOntologies/AgentCapability>)
 
 
+############################
+#   Data Properties
+############################
+
+# Data Property: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000058> (has textual representation)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000058> "has textual representation"@en)
+SubDataPropertyOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000058> owl:topDataProperty)
+
+# Data Property: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000059> (has value)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000059> "has value"@en)
+SubDataPropertyOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000059> owl:topDataProperty)
+
+# Data Property: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000072> (has numerical value)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000072> "has numerical value"@en)
+SubDataPropertyOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000072> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000059>)
+
+# Data Property: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000073> (has temporal value)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000073> "has temporal value"@en)
+SubDataPropertyOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000073> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000059>)
+
+# Data Property: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000074> (has text value)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000074> "has text value"@en)
+SubDataPropertyOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000074> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000059>)
+
+
 
 ############################
 #   Classes
@@ -1973,15 +2011,15 @@ SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000182> <http://purl.obolibrary.
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HEPRO_0000001> "A request requesting the execution of some health procedure."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000061> <http://purl.obolibrary.org/obo/HEPRO_0000001> "A request that has as part a health procedure specification."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/HEPRO_0000001> "A request requesting the execution of some health procedure."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HEPRO_0000001> <http://purl.obolibrary.org/obo/HEPRO#HEPRO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HEPRO_0000001> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HEPRO_0000001> "health procedure request"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000001> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000027>)
-SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/HEPRO_0000030>))
+SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/HEPRO_0000030>))
 
 # Class: <http://purl.obolibrary.org/obo/HEPRO_0000003> (health procedure report)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HEPRO_0000003> "An information content entity containing information about some health procedure requests and possibly the associated health procedures."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HEPRO_0000003> <http://purl.obolibrary.org/obo/HEPRO#HEPRO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HEPRO_0000003> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HEPRO_0000003> "health procedure report"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000003> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
@@ -1992,25 +2030,23 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000061> <http://purl.obolibrary.org/obo/HEPRO_0000004> "A planned process that has some components that are planned processes, including at least one that is a health activity."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/HEPRO_0000004> "- A planned process that is maximally directed by a health procedure specification.
 - A planned process that is guided by the objective of contributing to a desired effect on the health status of an organism or several organisms achieved through the treatment, diagnosis, or prevention of disease or injury."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HEPRO_0000004> <http://purl.obolibrary.org/obo/HEPRO#HEPRO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HEPRO_0000004> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HEPRO_0000004> "health procedure"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/HEPRO_0000004> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000067> <http://purl.obolibrary.org/obo/HEPRO_0000030>)))
-SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000004> <http://purl.obolibrary.org/obo/OBI_0000011>)
-SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000067> <http://purl.obolibrary.org/obo/HEPRO_0000030>))
 SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002018> <http://purl.obolibrary.org/obo/HEPRO_0000005>))
 
 # Class: <http://purl.obolibrary.org/obo/HEPRO_0000005> (health activity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HEPRO_0000005> "A planned process that aims to produce a truthful statement about the health status of an organism or modify it."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000061> <http://purl.obolibrary.org/obo/HEPRO_0000005> "A planned process that aims to produce a truthful statement about the health status of an organism or modify it."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HEPRO_0000005> <http://purl.obolibrary.org/obo/HEPRO#HEPRO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HEPRO_0000005> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HEPRO_0000005> "health activity"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000005> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
 # Class: <http://purl.obolibrary.org/obo/HEPRO_0000006> (health procedure resulting process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HEPRO_0000006> "A planned process that is a part of a health procedure, that has as specified input at least one health activity outcome information and aim at generating a health procedure outcome information."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HEPRO_0000006> <http://purl.obolibrary.org/obo/HEPRO#HEPRO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HEPRO_0000006> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HEPRO_0000006> "health procedure resulting process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000006> <http://purl.obolibrary.org/obo/OBI_0000011>)
 SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/HEPRO_0000008>))
@@ -2018,7 +2054,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000006> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/HEPRO_0000007> (health procedure outcome information)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HEPRO_0000007> "An information content entity that is the output of a health procedure resulting process and that describes some outcomes of a health procedure."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HEPRO_0000007> <http://purl.obolibrary.org/obo/HEPRO#HEPRO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HEPRO_0000007> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HEPRO_0000007> "health procedure outcome information"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000007> <http://purl.obolibrary.org/obo/IAO_0000030>)
 SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/HEPRO_0000006>))
@@ -2027,7 +2063,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000007> ObjectSomeValuesFrom(<
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HEPRO_0000008> "An information content entity that is a specified output of a health activity."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000061> <http://purl.obolibrary.org/obo/HEPRO_0000008> "An information content entity that is a specified output of a health activity."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HEPRO_0000008> <http://purl.obolibrary.org/obo/HEPRO#HEPRO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HEPRO_0000008> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HEPRO_0000008> "health activity outcome information"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000008> <http://purl.obolibrary.org/obo/IAO_0000030>)
 SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/HEPRO_0000005>))
@@ -2035,24 +2071,25 @@ SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000008> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/HEPRO_0000009> (health provider identifier)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HEPRO_0000009> "An individual identifier that denotes a health provider."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HEPRO_0000009> <http://purl.obolibrary.org/obo/HEPRO#HEPRO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HEPRO_0000009> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HEPRO_0000009> "health provider identifier"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000009> <http://purl.obolibrary.org/obo/IAO_0020000>)
+SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000009> <http://purl.obolibrary.org/obo/IOIO_0000013>)
 SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000009> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/HEPRO_0000012>))
 
 # Class: <http://purl.obolibrary.org/obo/HEPRO_0000010> (physician identifier)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HEPRO_0000010> "A health provider identifier that is used to denote a person authorised to act as a physician."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HEPRO_0000010> <http://purl.obolibrary.org/obo/HEPRO#HEPRO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HEPRO_0000010> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HEPRO_0000010> "physician identifier"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000010> <http://purl.obolibrary.org/obo/HEPRO_0000009>)
+SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000010> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
 
 # Class: <http://purl.obolibrary.org/obo/HEPRO_0000011> (health provider role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HEPRO_0000011> "A role that inheres in an organism as a consequence of training in order to be able to participate as a performer in some health activities."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000600> <http://purl.obolibrary.org/obo/HEPRO_0000011> "This usually includes health professional like physicians, nurses or pharmacists etc.
 It could also includes non professionals like patient attendant but it would exclude others like secretaries or accountants."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HEPRO_0000011> <http://purl.obolibrary.org/obo/HEPRO#HEPRO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HEPRO_0000011> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HEPRO_0000011> "health provider role"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000011> <http://purl.obolibrary.org/obo/BFO_0000023>)
 SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000081> <http://purl.obolibrary.org/obo/OBI_0100026>))
@@ -2060,22 +2097,22 @@ SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000011> ObjectSomeValuesFrom(<
 # Class: <http://purl.obolibrary.org/obo/HEPRO_0000012> (health provider)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HEPRO_0000012> "An organism that is the bearer of a health provider role."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HEPRO_0000012> <http://purl.obolibrary.org/obo/HEPRO#HEPRO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HEPRO_0000012> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HEPRO_0000012> "health provider"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000012> <http://purl.obolibrary.org/obo/OBI_0100026>)
+SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000012> <http://purl.obolibrary.org/obo/NCBITaxon_2759>)
 SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/HEPRO_0000011>))
 
 # Class: <http://purl.obolibrary.org/obo/HEPRO_0000013> (diagnostic health procedure)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HEPRO_0000013> "TBD"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HEPRO_0000013> <http://purl.obolibrary.org/obo/HEPRO#HEPRO-H>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HEPRO_0000013> "A health procedure that include a diagnostic procedure - TBD."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HEPRO_0000013> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HEPRO_0000013> "diagnostic health procedure"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000013> <http://purl.obolibrary.org/obo/HEPRO_0000004>)
 
 # Class: <http://purl.obolibrary.org/obo/HEPRO_0000014> (surgical health procedure)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HEPRO_0000014> "TBD"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HEPRO_0000014> <http://purl.obolibrary.org/obo/HEPRO#HEPRO-H>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HEPRO_0000014> "A health procedure that includes a surgical procedure - TBD."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HEPRO_0000014> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HEPRO_0000014> "surgical health procedure"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000014> <http://purl.obolibrary.org/obo/HEPRO_0000004>)
 
@@ -2247,7 +2284,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000003> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000004> (healthcare facility)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000004> "TBD"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000004> "A facility that bears a healthcare function - WiP."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000004> "healthcare facility"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000004> <http://purl.obolibrary.org/obo/OMRSE_00000062>)
 
@@ -2269,8 +2306,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000008> ObjectSomeValuesFrom(<h
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000009> "A health provider who is a member of a healthcare organisation."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000009> "healthcare provider"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000009> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HEPRO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002350> <http://purl.obolibrary.org/obo/HOSO_0000008>)))
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000009> <http://purl.obolibrary.org/obo/HEPRO_0000012>)
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002350> <http://purl.obolibrary.org/obo/HOSO_0000008>))
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000010> (healthcare procedure)
 
@@ -2282,7 +2317,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000010> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000011> (healthcare organization service delivery)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000011> "A service delivery under the responsibility of a healthcare organisation. It stems from an agreement between a requesting agent and a healthcare organization."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000011> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000011> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000011> "healthcare organization service delivery"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000011> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000036>)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.obolibrary.org/obo/HOSO_0000006>))
@@ -2290,56 +2325,56 @@ SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000011> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000012> (healthcare organization clinical visit)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000012> "A healthcare organisation service delivery that aims at providing a desired effect on the health status of a specified organism. It is usually composed of health procedures and possibly associated ancillary processes."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000012> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000012> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000012> "healthcare organization clinical visit"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000012> <http://purl.obolibrary.org/obo/HOSO_0000011>)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/HOSO_0000010>))
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HOSO_0000002> <http://purl.obolibrary.org/obo/OBI_0100026>))
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HOSO_0000002> <http://purl.obolibrary.org/obo/HOSO_0000081>))
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000004> <http://purl.obolibrary.org/obo/HOSO_0000074>))
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000012> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/OpenLHS-Core_0000004> <http://purl.obolibrary.org/obo/HOSO_0000003>))
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000013> (ancillary care service delivery)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000013> "A service delivery that aims to support health services without directly providing a desired effect on the health status of individuals or communities."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000013> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000013> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000013> "ancillary care service delivery"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000013> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000036>)
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000014> (custodial care service delivery)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000014> "A service delivery from an organization that aims to provide for the activities of daily living of individuals or communities."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000014> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000014> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000014> "custodial care service delivery"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000014> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000036>)
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000016> (populational healthcare service)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000016> "A healthcare service that aims at providing a desired effect on the health status of a community."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000016> <http://purl.obolibrary.org/obo/HOSO.owl#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000016> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000016> "populational healthcare service"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000016> <http://purl.obolibrary.org/obo/HOSO_0000011>)
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000017> (healthcare organization clinical encounter)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000017> "A temporally-connected healthcare organization clinical visit that aims to improve, maintain or restore the health of some participating organism."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000017> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000017> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000017> "healthcare organization clinical encounter"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000017> <http://purl.obolibrary.org/obo/HOSO_0000012>)
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000018> (facility-supported healthcare encounter)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000018> "A healthcare encounter during which the recipient is located in a healthcare facility at some time."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000018> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000018> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000018> "facility-supported healthcare encounter"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000018> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HOSO_0000017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002479> <http://purl.obolibrary.org/obo/HOSO_0000004>)))
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000018> <http://purl.obolibrary.org/obo/HOSO_0000017>)
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000018> <http://purl.obolibrary.org/obo/HOSO_0000139>)
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000019> (public provincial health identifier)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000019> "An identifier that denotes a public provincial health insurance record."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000019> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000019> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000019> "public provincial health identifier"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000019> <http://purl.obolibrary.org/obo/IAO_0020000>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000019> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000054>)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HOSO_0000060>))
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000022> (healthcare facility identifier)
@@ -2358,29 +2393,31 @@ SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000023> ObjectExactCardinality(
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000026> (outpatient visit)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000026> "A healthcare organisation clinical visit where the patient physically attends to a healthcare facility, but where there is no expectation of providing support for activities of daily living (such as eating and bathing) nor accommodation for the patient."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000026> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000026> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000026> "outpatient visit"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000026> <http://purl.obolibrary.org/obo/HOSO_0000139>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000026> <http://purl.obolibrary.org/obo/HOSO_0000012>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002479> <http://purl.obolibrary.org/obo/HOSO_0000004>))
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000028> (inpatient visit)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000028> "A healthcare organisation clinical visit where there is expectation of providing support for activities of daily living (such as eating and bathing) and accommodation for the patient."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000028> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000028> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000028> "inpatient visit"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000028> <http://purl.obolibrary.org/obo/HOSO_0000139>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000028> <http://purl.obolibrary.org/obo/HOSO_0000012>)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/HOSO_0000014>))
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002479> <http://purl.obolibrary.org/obo/HOSO_0000004>))
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000029> (day inpatient visit)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000029> "An inpatient visit that does not extend overnight."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000029> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000029> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000029> "day inpatient visit"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000029> <http://purl.obolibrary.org/obo/HOSO_0000028>)
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000030> (day inpatient surgery visit)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000030> "A day inpatient visit which includes a surgical procedure."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000030> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000030> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000030> "day inpatient surgery visit"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000030> <http://purl.obolibrary.org/obo/HOSO_0000029>)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/HEPRO_0000014>))
@@ -2388,7 +2425,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000030> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000031> (hospitalization)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000031> "An inpatient visit located in a hospital facility requested by a physician, that may extends overnight."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000031> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000031> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000031> "hospitalization"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000031> <http://purl.obolibrary.org/obo/HOSO_0000028>)
 
@@ -2396,48 +2433,46 @@ SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000031> <http://purl.obolibrary
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000032> "A healthcare organisation clinical visit where there is expectation of providing unplanned, timely, urgent care, including handling life-threatening conditions.
 It is not necessarily an immediate inpatient subsequent visit."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000032> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000032> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000032> "emergency department visit"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000032> <http://purl.obolibrary.org/obo/HOSO_0000139>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000032> <http://purl.obolibrary.org/obo/HOSO_0000012>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002479> <http://purl.obolibrary.org/obo/HOSO_0000004>))
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000033> (emergency department inpatient visit)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000033> "An emergency department visit and an inpatient visit, where there is usually limited accommodation and where the goal is to stabilise a life-threatening condition or decide whether the clinical situation requires a hospitalisation visit."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000033> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000033> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000033> "emergency department inpatient visit"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000033> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HOSO_0000028> <http://purl.obolibrary.org/obo/HOSO_0000032>))
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000033> <http://purl.obolibrary.org/obo/HOSO_0000028>)
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000033> <http://purl.obolibrary.org/obo/HOSO_0000032>)
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000034> (emergency department outpatient visit)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000034> "An emergency department visit and an outpatient visit."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000600> <http://purl.obolibrary.org/obo/HOSO_0000034> "there is no expectation of providing support for activities of daily living (such as eating and bathing) nor accommodation for the patient"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000034> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000600> <http://purl.obolibrary.org/obo/HOSO_0000034> "There is no expectation of providing support for activities of daily living (such as eating and bathing) nor accommodation for the patient"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000034> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000034> "emergency department outpatient visit"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000034> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HOSO_0000026> <http://purl.obolibrary.org/obo/HOSO_0000032>))
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000034> <http://purl.obolibrary.org/obo/HOSO_0000026>)
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000034> <http://purl.obolibrary.org/obo/HOSO_0000032>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000034> <http://purl.obolibrary.org/obo/HOSO_0000012>)
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000035> (walk-in clinic visit)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000035> "an outpatient visit where there is expectation of providing unplanned, timely care, but excluding handling life-threatening conditions"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000035> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000035> "An outpatient visit where there is expectation of providing unplanned, timely care, but excluding handling life-threatening conditions."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000035> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000035> "walk-in clinic visit"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000035> <http://purl.obolibrary.org/obo/HOSO_0000026>)
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000036> (outpatient surgery visit)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000036> "an outpatient visit which includes a surgical procedure"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000036> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000036> "An outpatient visit which includes a surgical procedure."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000036> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000036> "outpatient surgery visit"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000036> <http://purl.obolibrary.org/obo/HOSO_0000026>)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/HEPRO_0000014>))
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000037> (outpatient diagnostic visit)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000037> "an outpatient visit which includes a diagnostic procedure"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000037> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000037> "An outpatient visit which includes a diagnostic procedure."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000037> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000037> "outpatient diagnostic visit"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000037> <http://purl.obolibrary.org/obo/HOSO_0000026>)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/HEPRO_0000013>))
@@ -2445,16 +2480,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000037> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000038> (immediate inpatient subsequent visit)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000038> "An immediate subsequent visit healthcare organisation visit for a given patient that was participating in another healthcare organisation visit for the same organisation just prior to this visit."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000038> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000038> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000038> "immediate inpatient subsequent visit"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000038> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HOSO_0000028> <http://purl.obolibrary.org/obo/HOSO_0000069>))
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000038> <http://purl.obolibrary.org/obo/HOSO_0000028>)
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000038> <http://purl.obolibrary.org/obo/HOSO_0000069>)
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000039> (prior visit category to an inpatient visit)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000039> "An information content entity describing the type of visit that occured prior to an immediate inpatient subsequent visit."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000039> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000039> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000039> "prior visit category to an inpatient visit"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000039> <http://purl.obolibrary.org/obo/IAO_0000030>)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HOSO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002090> <http://purl.obolibrary.org/obo/HOSO_0000038>))))
@@ -2462,7 +2495,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000039> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000040> (still born healthcare service)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000040> "A healthcare organisation service delivery where the main entity of interest is a still born."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000040> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000040> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000040> "still born healthcare service"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000040> <http://purl.obolibrary.org/obo/HOSO_0000011>)
 
@@ -2470,33 +2503,31 @@ SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000040> <http://purl.obolibrary
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000041> "A healthcare organization clinical visit during which a birth statement was produced regarding the birth of the main patient visit beneficiary."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000600> <http://purl.obolibrary.org/obo/HOSO_0000041> "In the case of human health the specified organism refers to the child born during the visit."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000041> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000041> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000041> "healthcare birth visit"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000041> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HOSO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IOIO_0000001> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HOSO_0000137>)))))
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000041> <http://purl.obolibrary.org/obo/HOSO_0000012>)
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000041> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IOIO_0000001> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HOSO_0000137>))))
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000042> (inpatient visit from an external location)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/HOSO_0000042> "Patient hospitalized directly from home."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/HOSO_0000042> "Patient transferred from a healthcare organization emergency department to be hospitalized by a different healthcare organization."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000042> "an inpatient visit that is not immedately following another healthcare organisation clinical visit in the same organisation, and is not a healthcare birth visit"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000042> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000042> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000042> "inpatient visit from an external location"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000042> <http://purl.obolibrary.org/obo/HOSO_0000028>)
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000043> (ambulance initiated emergency department visit)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000043> "An emergency department visit for a given patient that was participating in another healthcare organisation visit involving paramedics just prior to this visit."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000043> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/HOSO_0000043> "Considérer axomatisation séquentielle")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000043> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000043> "ambulance initiated emergency department visit"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000043> <http://purl.obolibrary.org/obo/HOSO_0000032>)
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000043> <http://purl.obolibrary.org/obo/HOSO_0000068>)
+EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000043> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HOSO_0000032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/HOSO_0000071>)))
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000044> (cadaver service)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000044> "A healthcare organization service delivery where the main entity of interest is a human cadaver that was not delivered just prior to this service."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000044> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000044> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000044> "cadaver service"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000044> <http://purl.obolibrary.org/obo/HOSO_0000011>)
 
@@ -2504,16 +2535,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000044> <http://purl.obolibrary
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000045> "A healthcare organization clinical visit during which a death statement was produced regarding the death of the main patient visit beneficiary."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000600> <http://purl.obolibrary.org/obo/HOSO_0000045> "A healthcare organization clinical visit during which the patient died."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000045> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000045> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000045> "healthcare visit of expiration"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000045> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HOSO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IOIO_0000003> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HOSO_0000137>)))))
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000045> <http://purl.obolibrary.org/obo/HOSO_0000012>)
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000045> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IOIO_0000003> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HOSO_0000137>))))
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000046> (visit discharge specification)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000046> "A directive information entity that aims at directing what health procedures or healthcare organization services are recommended after this visit."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000046> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000046> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000046> "visit discharge specification"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000046> <http://purl.obolibrary.org/obo/IAO_0000033>)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000046> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HOSO_0000012>))
@@ -2521,7 +2550,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000046> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000047> (visit transfer specification)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000047> "A visit discharge specification that aims at directing to which healthcare organisation the patient should be transferred after the end of the current visit."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000047> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000047> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000047> "visit transfer specification"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000047> <http://purl.obolibrary.org/obo/HOSO_0000046>)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000047> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HOSO_0000008>))
@@ -2529,7 +2558,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000047> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000048> (visit transfer specification category)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000048> "An information content entity that is part of a visit transfer specification and is about the type of healthcare organization specified."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000048> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000048> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000048> "visit transfer specification category"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000048> <http://purl.obolibrary.org/obo/IAO_0000030>)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000048> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/HOSO_0000047>))
@@ -2537,37 +2566,35 @@ SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000048> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000049> (visit discharge specification for home)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000049> "A visit discharge specification for a given clinical visit that has no visit transfer specification."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000049> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000049> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000049> "visit discharge specification for home"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000049> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HOSO_0000046> ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/HOSO_0000047>))))
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000049> <http://purl.obolibrary.org/obo/HOSO_0000046>)
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000050> (visit ended by the patient)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000050> "A healthcare organization clinical visit ended at the initiative of the patient without physician approval."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000050> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000050> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000050> "visit ended by the patient"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HOSO_0000012> ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/HOSO_0000125>))))
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000050> <http://purl.obolibrary.org/obo/HOSO_0000012>)
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000051> (visit ended by the patient without notification)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000051> "A visit ended by the patient without notifying the healthcare organization."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000051> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000051> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000051> "visit ended by the patient without notification"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000051> <http://purl.obolibrary.org/obo/HOSO_0000050>)
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000052> (triage-only emergency department visit)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000052> "An emergency department visit with a triage encounter but no further encounter."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000052> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000052> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000052> "triage-only emergency department visit"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000052> <http://purl.obolibrary.org/obo/HOSO_0000032>)
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000053> (emergency department visit with partial treatment)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000053> "An emergency department visit and a visit ended by the patient and some treatment healthcare procedure was provided."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000053> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000053> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000053> "emergency department visit with partial treatment"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000053> <http://purl.obolibrary.org/obo/HOSO_0000032>)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000053> <http://purl.obolibrary.org/obo/HOSO_0000050>)
@@ -2576,7 +2603,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000053> <http://purl.obolibrary
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000054> "An identifier that denotes a diagnosis related group."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/HOSO_0000054> "DRG code"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000054> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000054> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000054> "visit diagnosis related group code"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000054> <http://purl.obolibrary.org/obo/IAO_0020000>)
 
@@ -2584,7 +2611,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000054> <http://purl.obolibrary
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000055> "A process beginning statement that temporally qualifies the beginning of a healthcare organisation service delivery."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/HOSO_0000055> "A process beginning statement that temporally qualifies the beginning of a healthcare organisation service delivery."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000055> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000055> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000055> "healthcare organization service delivery beginning statement"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000055> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000033>)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/HOSO_0000100>))
@@ -2594,7 +2621,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000055> ObjectSomeValuesFrom(<h
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000056> "A process ending statement that temporally qualifies the ending of a healthcare organisation service delivery."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/HOSO_0000056> "A process ending statement that temporally qualifies the ending of a healthcare organisation service delivery."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000056> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000056> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000056> "healthcare organization service delivery ending statement"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000056> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000034>)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/HOSO_0000100>))
@@ -2603,7 +2630,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000056> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000060> (public provincial health insurance record)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000060> "An information content entity that contains the information required to manage the insurance coverage of an insured individual."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000060> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000060> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000060> "public provincial health insurance record"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000060> <http://purl.obolibrary.org/obo/IAO_0000030>)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000060> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HOSO_0000062>))
@@ -2620,7 +2647,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000062> "primary health insurance beneficiary human"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000062> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/HOSO_0000061>)))
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000062> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000062> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/HOSO_0000061>))
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000063> (public provincial health insurance primary residence statement)
 
@@ -2639,18 +2665,116 @@ SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000067> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000068> (immediate subsequent visit)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000068> "A healthcare organization clinical visit for a given patient that was participating in another healthcare organisation clinical visit just prior to this visit."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000068> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000068> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000068> "immediate subsequent visit"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000068> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HOSO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/HOSO_0000012>)))
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000068> <http://purl.obolibrary.org/obo/HOSO_0000012>)
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000068> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/HOSO_0000012>))
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000069> (immediate subsequent visit in same organization)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000069> "An immediate subsequent visit where both visits are under the responsability of the same healthcare organisation."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000069> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000069> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000069> "immediate subsequent visit in same organization"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000069> <http://purl.obolibrary.org/obo/HOSO_0000068>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000070> (direct ambulance initiated hospitalization)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000070> "An hospitalization for a given patient that was participating in another healthcare organisation visit involving paramedics just prior to this visit."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000070> "direct ambulance initiated hospitalization"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000070> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HOSO_0000031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/HOSO_0000071>)))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000071> (ambulance paramedics visit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000071> "A healthcare organization clinical visit involving an ambulance and paramedics as healthcare provider."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000071> "ambulance paramedics visit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000071> <http://purl.obolibrary.org/obo/HOSO_0000012>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000072> (ED by ambulance initiated hospitalization)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000072> "An hospitalization for a given patient that was participating in an ambulance initiated emergency departement visit."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000072> "ED by ambulance initiated hospitalization"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000072> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HOSO_0000031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/HOSO_0000043>)))
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000072> <http://purl.obolibrary.org/obo/HOSO_0000031>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000073> (ICU admission specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000073> "A clinical visit unit type specification mandating an hospitalization admission to an intensive care unit."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000073> "ICU admission specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000073> <http://purl.obolibrary.org/obo/HOSO_0000077>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000074> (clinical visit agreement specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000074> "A service agreement specification for a clinical visit admission."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000074> "clinical visit agreement specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000074> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000028>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000075> (clinical visit urgency level specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000075> "A clinical visit agreement specification mandating the urgency level of the clinical visit."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000075> "clinical visit urgency level specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000075> <http://purl.obolibrary.org/obo/HOSO_0000074>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000076> (hospitalization admission urgency level specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000076> "A clinical visit urgency level specification mandating the urgency level of the hospitalization admission."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000076> "hospitalization admission urgency level specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000076> <http://purl.obolibrary.org/obo/HOSO_0000075>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000077> (clinical visit unit type specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000077> "A clinical visit agreement specification mandating the type of unit required for a clinical visit."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000077> "clinical visit unit type specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000077> <http://purl.obolibrary.org/obo/HOSO_0000074>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000078> (hospitalization admitting physician specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000078> "A clinical visit agreement specification mandating the admitting physician."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000078> "hospitalization admitting physician specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000078> <http://purl.obolibrary.org/obo/HOSO_0000074>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000078> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/HOSO_0000138>))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000079> (healthcare physician service)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000079> "A healthcare organization with a mandate to manage and coordinate healthcare procedures deliveries under the responsability of its members"@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/HOSO_0000079> "It is often a sub-organization of a department. Ex: General internal medicine service is under the medicine department."@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/HOSO_0000079> "It is often based on the specialty of its members (e.g. respirology), but not always (e.g. vascular service, which may include general internal medicine physician as well as vascular surgeon)."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000079> "healthcare physician service"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000079> <http://purl.obolibrary.org/obo/HOSO_0000008>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000079> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002350> <http://purl.obolibrary.org/obo/HOSO_0000008>))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000080> (living environment type prior to clinical visit statement)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000080> "A primary residence statement that states the type of living environment of a patient immediately prior to a clinical visit."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000080> "living environment type prior to clinical visit statement"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000080> <http://purl.obolibrary.org/obo/IOIO_0000022>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000080> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/HOSO_0000100>))
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000080> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/IOIO_0000023>))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000081> (patient)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000081> "An eukaryote that is the bearer of a patient role."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000081> "patient"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000081> <http://purl.obolibrary.org/obo/NCBITaxon_2759>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000081> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/HOSO_0000082>))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000082> (patient role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000082> "A role born by an organism which is the primary recipient in a healthcare organization clinical visit."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000082> "patient role"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000082> <http://purl.obolibrary.org/obo/BFO_0000023>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000082> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/HOSO_0000012>))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000083> (human patient)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000083> "A patient that is a Homo sapiens."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000083> "human patient"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000083> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HOSO_0000081> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000084> (healthcare physician service identifier)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000084> "A healthcare organization identifier that denotes a physician service."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000084> "healthcare physician service identifier"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000084> <http://purl.obolibrary.org/obo/HOSO_0000023>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000084> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/HOSO_0000079>))
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000100> (healthcare organization service delivery identifier)
 
@@ -2658,6 +2782,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/HOSO_0000100> "An identifier that denotes a healthcare organization service delivery."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000100> "healthcare organization service delivery identifier"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000100> <http://purl.obolibrary.org/obo/IAO_0020000>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000100> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/HOSO_0000011>))
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000102> (healthcare organization service delivery beginning temporal information)
 
@@ -2665,6 +2790,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/HOSO_0000102> "A temporal information that is a component of a healthcare organization service delivery beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of healthcare organization service delivery."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000102> "healthcare organization service delivery beginning temporal information"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000102> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000065>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000102> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000070> <http://purl.obolibrary.org/obo/HOSO_0000055>))
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000103> (healthcare organization service delivery ending temporal information)
 
@@ -2707,6 +2833,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/HOSO_0000124> "A pragmatically accepted statement that states the impact of a pathological condition on a clinical visit."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000124> "health organization clinical visit pathological condition impact statement"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000124> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000010>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000124> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/HEPRO_0000017>))
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000124> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/HOSO_0000100>))
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000124> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/HOSO_0000126>))
 
@@ -2727,25 +2854,19 @@ SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000126> <http://purl.obolibrary
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000137> "human clinical visit specified patient"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000137> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000235> <http://purl.obolibrary.org/obo/HOSO_0000003>)))
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000137> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000137> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000235> <http://purl.obolibrary.org/obo/HOSO_0000003>))
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000138> (healthcare provider identifier)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000138> "An identifier that denotes a healthcare provider."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000138> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000138> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000138> "healthcare provider identifier"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000138> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HEPRO_0000009> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/HOSO_0000009>)))
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000138> <http://purl.obolibrary.org/obo/HEPRO_0000009>)
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000138> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/HOSO_0000009>))
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000139> (facility-supported clinical visit)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000139> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000139> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000139> "facility-supported clinical visit"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000139> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HOSO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002479> <http://purl.obolibrary.org/obo/HOSO_0000004>)))
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000139> <http://purl.obolibrary.org/obo/HOSO_0000012>)
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000139> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002479> <http://purl.obolibrary.org/obo/HOSO_0000004>))
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000140> (facility address)
 
@@ -2758,14 +2879,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000140> ObjectSomeValuesFrom(<h
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000142> "canadian facility address"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000142> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HOSO_0000140> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000020>))
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000142> <http://purl.obolibrary.org/obo/HOSO_0000140>)
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000142> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000020>)
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000145> (diagnosis related group)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000145> "An information content entity that aims at representing the various forms of care provided within the healthcare organization clinical visit as approximated by a case-mix group definition."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/HOSO_0000145> "DRG"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000145> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000145> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000145> "diagnosis related group"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000145> <http://purl.obolibrary.org/obo/IAO_0000030>)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000145> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HOSO_0000012>))
@@ -3010,8 +3129,6 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/IAO_0020000> "S
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0020000> "identifier"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0020000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/IAO_0020010>)))
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0020000> <http://purl.obolibrary.org/obo/IAO_0000030>)
-SubClassOf(<http://purl.obolibrary.org/obo/IAO_0020000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/BFO_0000001>))
-SubClassOf(<http://purl.obolibrary.org/obo/IAO_0020000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/IAO_0020010>))
 
 # Class: <http://purl.obolibrary.org/obo/IAO_0020010> (identifier creating process)
 
@@ -3025,7 +3142,6 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0020010> "identifier creating process"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0020010> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/IAO_0020000>)))
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0020010> <http://purl.obolibrary.org/obo/OBI_0000011>)
-SubClassOf(<http://purl.obolibrary.org/obo/IAO_0020010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/IAO_0020000>))
 
 # Class: <http://purl.obolibrary.org/obo/IAO_0020020> (code set)
 
@@ -3065,7 +3181,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.ob
 Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IOIO_0000001> "A process temporally qualifying statement about the birth of a human including an identifier and a temporal information of the birth of this human."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000061> <http://purl.obolibrary.org/obo/IOIO_0000001> "A process temporally qualifying statement about the birth of a human including an identifier and a temporal information of the birth of this human."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/IOIO_0000001> <http://purl.obolibrary.org/obo/IOIO#IOIO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/IOIO_0000001> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IOIO_0000001> "human birth statement"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000001> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000031>)
 SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/IOIO_0000005>))
@@ -3075,18 +3191,16 @@ SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000001> ObjectSomeValuesFrom(<h
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IOIO_0000002> "A state sanctioned human birth statement."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000061> <http://purl.obolibrary.org/obo/IOIO_0000002> "A state sanctioned human birth statement."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/IOIO_0000002> <http://purl.obolibrary.org/obo/IOIO#IOIO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/IOIO_0000002> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IOIO_0000002> "civil birth record"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/IOIO_0000002> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IOIO_0000001> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000011>))
-SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000002> <http://purl.obolibrary.org/obo/IOIO_0000001>)
-SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000002> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000011>)
 
 # Class: <http://purl.obolibrary.org/obo/IOIO_0000003> (human death statement)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/IOIO_0000003> "Reese, Kyle died in 1984"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IOIO_0000003> "A process temporally qualifying statement about the death of a human including an identifier and a temporal information of the death of this human."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000061> <http://purl.obolibrary.org/obo/IOIO_0000003> "A process temporally qualifying statement about the death of a human including an identifier and a temporal information of the death of this human."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/IOIO_0000003> <http://purl.obolibrary.org/obo/IOIO#IOIO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/IOIO_0000003> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IOIO_0000003> "human death statement"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000003> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000031>)
 SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/IOIO_0000006>))
@@ -3096,11 +3210,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000003> ObjectSomeValuesFrom(<h
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IOIO_0000004> "A state sanctioned human death statement."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000061> <http://purl.obolibrary.org/obo/IOIO_0000004> "A state sanctioned human death statement."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/IOIO_0000004> <http://purl.obolibrary.org/obo/IOIO#IOIO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/IOIO_0000004> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IOIO_0000004> "civil death record"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/IOIO_0000004> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IOIO_0000003> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000011>))
-SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000004> <http://purl.obolibrary.org/obo/IOIO_0000003>)
-SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000004> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000011>)
 
 # Class: <http://purl.obolibrary.org/obo/IOIO_0000005> (human birth temporal information)
 
@@ -3129,16 +3241,15 @@ SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000010> <http://purl.obolibrary
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IOIO_0000011> "A biological sex information content entity that denotes the biological sex of a human."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/IOIO_0000011> "A biological sex information content entity that denotes the biological sex of a human."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/IOIO_0000011> <http://purl.obolibrary.org/obo/IOIO#IOIO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/IOIO_0000011> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IOIO_0000011> "human biological sex information content entity"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000011> <http://purl.obolibrary.org/obo/IOIO_0000010>)
-SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000011> <http://purl.obolibrary.org/obo/IOIO_0000012>)
 
 # Class: <http://purl.obolibrary.org/obo/IOIO_0000012> (human biological sex or gender identity information content entity)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IOIO_0000012> "An information content entity that denotes a biological sex or a gender identity of a human."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/IOIO_0000012> "An information content entity that denotes a biological sex or a gender identity of a human."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/IOIO_0000012> <http://purl.obolibrary.org/obo/IOIO#IOIO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/IOIO_0000012> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IOIO_0000012> "human biological sex or gender identity information content entity"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/IOIO_0000012> ObjectUnionOf(<http://purl.obolibrary.org/obo/IOIO_0000011> <http://purl.obolibrary.org/obo/OMRSE_00000209>))
 SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000012> <http://purl.obolibrary.org/obo/IAO_0000030>)
@@ -3150,25 +3261,22 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/IOIO_0000013> "An identifier that denotes a particular organism."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IOIO_0000013> "organism identifier"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/IOIO_0000013> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0020000> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/OBI_0100026>)))
-SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000013> <http://purl.obolibrary.org/obo/IAO_0020000>)
-SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/OBI_0100026>))
 
 # Class: <http://purl.obolibrary.org/obo/IOIO_0000014> (human identifier)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IOIO_0000014> "An organism identifier that denotes a particular human."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/IOIO_0000014> "An organism identifier that denotes a particular human."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/IOIO_0000014> <http://purl.obolibrary.org/obo/IOIO#IOIO-H>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/IOIO_0000014> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IOIO_0000014> "human identifier"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/IOIO_0000014> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IOIO_0000013> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))
-SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000014> <http://purl.obolibrary.org/obo/IOIO_0000013>)
-SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
 
 # Class: <http://purl.obolibrary.org/obo/IOIO_0000015> (human biological sex statement)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IOIO_0000015> "A statement stating the biological sex of a human."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/IOIO_0000015> "A statement stating the biological sex of a human."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IOIO_0000015> "A pragmatically accepted statement stating the biological sex of a human."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/IOIO_0000015> "A pragmatically accepted statement stating the biological sex of a human."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/IOIO_0000015> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IOIO_0000015> "human biological sex statement"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000015> <http://purl.obolibrary.org/obo/SEPIO_0000174>)
+SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000015> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000010>)
 SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/IOIO_0000011>))
 SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/IOIO_0000014>))
 
@@ -3185,6 +3293,18 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/IOIO_0000021> "A human death temporal information that denotes a time interval of one day as defined in a calendar accepted in a human society."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IOIO_0000021> "human death date"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000021> <http://purl.obolibrary.org/obo/IOIO_0000006>)
+
+# Class: <http://purl.obolibrary.org/obo/IOIO_0000022> (primary residence statement)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IOIO_0000022> "A pragmatically accepted statement that states characteristics of the primary residence of an individual at a given moment in time."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IOIO_0000022> "primary residence statement"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000022> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000010>)
+
+# Class: <http://purl.obolibrary.org/obo/IOIO_0000023> (living environment type)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IOIO_0000023> "An information content entity that aims at representing a type of living environment applicable to a primary residence."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IOIO_0000023> "living environment type"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000023> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_10239> (Viruses)
 
@@ -3223,6 +3343,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/NCBITaxon_9606> "human")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/NCBITaxon_9606> "human being")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/NCBITaxon_9606> <http://purl.obolibrary.org/obo/ncbitaxon.owl>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/NCBITaxon_9606> <http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_9606> "Homo sapiens")
 SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> <http://purl.obolibrary.org/obo/NCBITaxon_2759>)
 
@@ -3244,7 +3365,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000011> "planned process"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> <http://purl.obolibrary.org/obo/IAO_0000104>)))
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000011> <http://purl.obolibrary.org/obo/BFO_0000015>)
-SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000059> <http://purl.obolibrary.org/obo/IAO_0000104>)))
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0000245> (organization)
 
@@ -3336,7 +3456,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/OGMS_0000031> "creation date: 2009-06-23T11:21:20Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OGMS_0000031> "disease")
 SubClassOf(<http://purl.obolibrary.org/obo/OGMS_0000031> <http://purl.obolibrary.org/obo/BFO_0000016>)
-SubClassOf(<http://purl.obolibrary.org/obo/OGMS_0000031> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000060>)
 
 # Class: <http://purl.obolibrary.org/obo/OGMS_0000045> (disorder)
 
@@ -3346,7 +3465,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/OGMS_0000045> "creation date: 2009-06-23T11:39:44Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OGMS_0000045> "disorder")
 SubClassOf(<http://purl.obolibrary.org/obo/OGMS_0000045> <http://purl.obolibrary.org/obo/BFO_0000040>)
-SubClassOf(<http://purl.obolibrary.org/obo/OGMS_0000045> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000060>)
 
 # Class: <http://purl.obolibrary.org/obo/OGMS_0000060> (bodily process)
 
@@ -3363,7 +3481,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/OGMS_0000061> "creation date: 2009-06-23T11:54:29Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OGMS_0000061> "pathological bodily process")
 SubClassOf(<http://purl.obolibrary.org/obo/OGMS_0000061> <http://purl.obolibrary.org/obo/OGMS_0000060>)
-SubClassOf(<http://purl.obolibrary.org/obo/OGMS_0000061> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000060>)
 
 # Class: <http://purl.obolibrary.org/obo/OGMS_0000086> (syndrome)
 
@@ -3454,7 +3571,6 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> <http://purl.o
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> <http://purl.obolibrary.org/obo/OMRSE_00000209> "Sarah Bost"@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> <http://purl.obolibrary.org/obo/OMRSE_00000209> "William R. Hogan"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMRSE_00000209> "gender identity information content entity"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/OMRSE_00000209> <http://purl.obolibrary.org/obo/IOIO_0000012>)
 SubClassOf(<http://purl.obolibrary.org/obo/OMRSE_00000209> <http://purl.obolibrary.org/obo/OMRSE_00000204>)
 
 # Class: <http://purl.obolibrary.org/obo/OMRSE_00000210> (female gender identity information content entity)
@@ -3531,8 +3647,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000013> "An informational entity that fills an informational slot."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000013> "informational filler"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000013> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000001> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000012>)))
-SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000013> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000009>)
-SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000001> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000012>))
 
 # Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000020> (canadian postal address)
 
@@ -3665,8 +3779,6 @@ AnnotationAssertion(Annotation(rdfs:comment "All service deliveries are directed
 - A planned process that is maximally directed by a service agreement specification."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000036> "service delivery"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000036> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000067> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000028>)))
-SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000036> <http://purl.obolibrary.org/obo/OBI_0000011>)
-SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000067> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000028>))
 
 # Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000043> (agent plan to act as if some statement was true)
 
@@ -3716,6 +3828,32 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http:
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000053> "continuant disappearance statement"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000053> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000051>)
 
+# Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000054> (specified value)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000054> "4 Km"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000061> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000054> "An information content entity whose structure and content follow a template."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000054> "specified value"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000054> <http://purl.obolibrary.org/obo/IAO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000054> DataExactCardinality(1 <http://purl.obolibrary.org/obo/OpenLHS-Core_0000059>))
+
+# Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000055> (numerical specified value)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000055> "numerical specified value"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000055> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000054>)
+
+# Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000056> (unit qualified scalar specified value)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000056> "unit qualified scalar specified value"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000056> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000054>)
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000056> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000055>))
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000056> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000057>))
+
+# Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000057> (unit)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000057> "unit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000057> <http://purl.obolibrary.org/obo/IAO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000057> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000058> xsd:string))
+
 # Class: <http://purl.obolibrary.org/obo/OpenLHS-Core_0000060> (pathological condition)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000060> "An entity that is a disorder, a disease or a pathological bodily process"@en)
@@ -3730,8 +3868,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000065> "An information content entity that denotes a one-dimension temporal region."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OpenLHS-Core_0000065> "temporal information"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000065> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000030> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/BFO_0000008>)))
-SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000065> <http://purl.obolibrary.org/obo/IAO_0000030>)
-SubClassOf(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000065> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/BFO_0000008>))
 
 # Class: <http://purl.obolibrary.org/obo/SEPIO_0000174> (statement)
 
@@ -3779,7 +3915,6 @@ AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/is_c
 AnnotationAssertion(rdfs:label <http://www.ontologyrepository.com/CommonCoreOntologies/Agent> "Agent"@en)
 EquivalentClasses(<http://www.ontologyrepository.com/CommonCoreOntologies/Agent> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://www.ontologyrepository.com/CommonCoreOntologies/agent_in> <http://purl.obolibrary.org/obo/BFO_0000015>)))
 SubClassOf(<http://www.ontologyrepository.com/CommonCoreOntologies/Agent> <http://purl.obolibrary.org/obo/BFO_0000040>)
-SubClassOf(<http://www.ontologyrepository.com/CommonCoreOntologies/Agent> ObjectSomeValuesFrom(<http://www.ontologyrepository.com/CommonCoreOntologies/agent_in> <http://purl.obolibrary.org/obo/BFO_0000015>))
 
 # Class: <http://www.ontologyrepository.com/CommonCoreOntologies/AgentCapability> (Agent Capability)
 

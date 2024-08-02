@@ -1,5 +1,5 @@
 id: RIDDLE
-title: RIDDLE project ontology
+title: Mortality Prediction for Hospitalized Patient
 github_org: OpenLHS
 repo: RIDDLE
 documentation:
@@ -7,15 +7,16 @@ documentation:
 release_artefacts:
   - full
   - base
-primary_release: full
+  - non-classified
+primary_release: non-classified
 export_formats:
   - owl
 import_group:
   products:
     - id: HOSO
       module_type: mirror
-      mirror_from: "https://raw.githubusercontent.com/OpenLHS/HOSO/main/HOSO-full.owl"
+      mirror_from: "https://raw.githubusercontent.com/OpenLHS/HOSO/main/HOSO.owl"
 subset_group:
   products:
-    - id: RIDDLE_slim
+    - id: MPHPO-Slim
 robot_java_args: "-Xmx8G"
